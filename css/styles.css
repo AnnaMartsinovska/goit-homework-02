@@ -20,11 +20,12 @@ body {
 
 .logo{
     font-family: var(--second-font);
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     color: var(--global-color-blue);
-
+    text-transform: uppercase;
 }
 
 .studio {
@@ -79,6 +80,7 @@ body {
     line-height: 1.07;
     letter-spacing: 1.12px;
     color: var(--background-color-white);
+    text-align: center;
 }
 
 
@@ -120,9 +122,19 @@ body {
     font-family: var(--global-font);
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     color: var(--second-text-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.background-team{
+    background-color: var(--background-color-grey);
+}
+
+.background-team-photo{
+   background-color: var(--background-color-white);
 }
 
 .footer{
@@ -130,7 +142,7 @@ body {
 }
 
 .studio-white{
-    color: var(--background-color-white);
+    color: var(--background-color-grey);
 }
 
 .footer-text{
