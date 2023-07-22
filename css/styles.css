@@ -142,6 +142,30 @@ body {
     color: var(--background-color-grey);
 }
 
+.portfolio-btn{
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+    background-color: var(--background-color-grey);
+    color: var(--global-color-blue);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--active-button);
+    color: var(--background-color-white);
+}
+
+
+
+
+
+
+
+
 
 
 
